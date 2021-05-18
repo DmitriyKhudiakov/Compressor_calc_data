@@ -18,6 +18,10 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+Launch app
+```bash
+main.py
+```
 The description of how the application works is located inside the application. 
 
 
