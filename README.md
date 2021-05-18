@@ -8,7 +8,7 @@ All dependencies are in the file requirements.txt.
 
 
 ## Installation
-clone this repo
+Clone this repo
 ```bash
 git clone https://github.com/DmitriyKhudiakov/Compressor_calc_data.git
 ```
