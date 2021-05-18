@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+  <meta charset="utf-8">
+  <style type="text/css">
+  body {
+  background-color: #F0F0F0;
+  }
+  .middle > * {
+  vertical-align: middle;
+}
+  h1 {
+	font-family: Georgia;
+	font-size: 150pt;
+	}
+  h2 {
+	display: inline-block;
+  margin: 0;
+  width: 150px;
+  text-align: middle;
+  font: bold 20px Sans-Serif;
+	}
+  span {
+	font-family: serif, 'Times New Roman', Times;
+	font-size: 16pt;
+	word-wrap: break-word;
+	}
+	p {
+	font-family: serif, 'Times New Roman', Times;
+	font-size: 16pt;
+	word-wrap: break-word;
+	}
+  img{
+  max-width: 100%;
+  width: auto \9;
+  height: auto;
+  vertical-align: middle;
+ border: 0;
+  }
+
+  </style>
+ </head>
+ <body>
+ <center>
+  <h1>Расчет зависимости безразмерных характеристик от условного коэффициента расхода в ступени центробежного компрессора</h1><br>
+  <span>
+   Данная программа предназначена для построения графиков характеристик ступени в зависимости от условного коэффициента расхода
+   по результатам газодинамического расчета ступени центробежного компрессора в программе Ansys CFX. Для проведения расчета необходимо загрузить таблицы с данными
+   газодинамического расчета (формат .txt или .csv). В таблице должны быть указаны параметров в сечениях - 0-0..0'-0'(смотри рисунок).<br><img src="source/images/stage.png"><br>Параметры должны быть указаны в той же последовательности,что и на рисунке ниже (через запятую).<br><img src="source/images/example_table.png"><br>Пример таблиц для разного массового расхода приведен в папке example_import_data. В разделе Import data необходимо добавить таблицу с помощью кнопки Add table. Если в столбце Data valid стоит нажпись Data is valid, значит данные из файла прочитаны без ошибок, если - Error, то данные не прочитаны и расчет не запустится. В разделе Calc data необходимо ввести дополнительные данные для расчета. В разделе Proc data можно сохранить таблицу с результатами расчета в текстовый файл с помощью кнопки Save, а с помощью кнопки Show можно просмотреть графики найденных величин.
+   результатов.<br>
+   Программу ваполняли - студент СПБПУ, ИЭ, Худяков Д.П., ассистент Высшей школы энергетического машиностроения, СПБПУ, Аксенов А.А.
+   
+  </span>
+ </center>
+
+ </body>
+</html>
