@@ -211,13 +211,10 @@ class MainWidget(QWidget):
         self.there_are_ready_data = False
         self.is_all_data_ready = True
         self.update_calc_label()
-        print("1 " + str(len(self.enter_data_list)))
         self.enter_data_list = self.enter_data_list[:-1]
-        print("2 " + str(len(self.enter_data_list)))
 
     def calc_btn_clicked(self):
         if (self.is_all_data_ready is True) and (self.there_are_ready_data is True):
-            print("3 " + str(len(self.enter_data_list)))
             self.res_data_list = []
             for ed in self.enter_data_list:
                 enter_list = []
