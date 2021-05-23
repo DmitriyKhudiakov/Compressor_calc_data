@@ -1,4 +1,4 @@
-import lauch as ln
+import launch as ln
 
 
 def main():
